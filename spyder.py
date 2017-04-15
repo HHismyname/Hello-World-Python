@@ -1,3 +1,4 @@
+#Line 9 creates a random number generator that simulates the water readings in the Martian supply tanks. It checks the readings every minute.
 #!/usr/bin/env python
 
 from random import randint
@@ -5,7 +6,7 @@ import time
 
 count = 0
 while (count < 9):
-    x = randint(0,14)
+  x = randint(0,14)
     print("Your pH level is")
     print(x)
     if x >= 0 and x <= 2:
